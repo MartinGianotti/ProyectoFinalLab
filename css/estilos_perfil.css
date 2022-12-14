@@ -1,0 +1,48 @@
+
+
+#menu-principal{
+    background-color: rgb(0, 47, 255);
+    display: flex;
+    height: 150px;
+    gap: 10px;
+    width: 100%;
+}
+.fondo{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+.boton-menu{
+    background-color:white;
+    border-radius: 10%;
+    margin-left: auto;
+    height: auto;
+    width: 100px;
+}
+
+.edit{
+    margin: 50px;
+    color: white;
+}
+.fieldset{
+   
+    background-color: black;
+    margin: 55px; 
+    color: white;
+    max-width: 75%;  
+}
+
+
+.boton-reset{
+    margin: 50px;
+    position: relative;
+    bottom: auto;
+}
+
+footer{
+    background-color: rgb(0, 47, 255);
+    text-align: center;
+}
+

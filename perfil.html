@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos_perfil.css">
+</head>
+<body background= "img/fondo_perfil.png" class="fondo">
+    <form>
+        <div id="contenedor-general">
+            
+            <header>
+                <nav id="menu-principal">   
+                    <img src="img/logo.png" alt="Logo" title="Logo">  
+                    <button class="boton-menu" >
+                        <a href="index.html"> Inicio </a>
+                    </button>      
+                </nav>
+            </header>
+            
+            <div id="contenedor-central" >     
+                <main>             
+                    <h1 class="edit">EDITAR PERFIL</h1>
+                    <fieldset class="fieldset">
+                        <legend>Información Personal</legend>
+                            Nombre: <input name='nombre' type='text' >
+                            Apellidos: <input name='apellidos' type='text' >
+                    </fieldset>
+
+                    <fieldset class="fieldset">
+                        <legend>Contraseña</legend>
+                            Contraseña: <input name="Contraseña" type="password" >
+                    </fieldset>
+                    
+                    <fieldset class="fieldset">
+                        <legend>Fecha de nacimiento</legend>
+                            <input type="date"
+                            name='Nacimiento' >     
+                    </fieldset>    
+
+                    <fieldset class="fieldset">
+                            <legend>Contacto</legend>
+                            Email: <input name="email" type="text" > 
+                            Tel: <input name="Tel" type="number">
+                    </fieldset>   
+
+                    <fieldset class="fieldset">
+                        <legend>Domicilio</legend>
+                            Provincia: 
+                            <select name="select" >
+                                <option value="value0">Seleccione</option>
+                                <option value="value1">Buenos Aires</option>
+                                <option value="value2">CABA</option>
+                                <option value="value3">Catamarca</option>
+                                <option value="value4">Chaco</option>
+                                <option value="value5">Chubut</option>
+                                <option value="value6">Cordoba</option>
+                                <option value="value7">Corrientes</option>
+                                <option value="value8">Entre Rios</option>
+                                <option value="value9">Formosa</option>
+                                <option value="value10">Jujuy</option>
+                                <option value="value11">La Pampa</option>
+                                <option value="value12">La rioja</option>
+                                <option value="value13">Mendoza</option>
+                                <option value="value14">Misiones</option>
+                                <option value="value15">Neuquen</option>
+                                <option value="value16">Rio Negro</option>
+                                <option value="value17">Salta</option>
+                                <option value="value18">San Juan</option>
+                                <option value="value19">San Luis</option>
+                                <option value="value20">Santa Cruz</option>
+                                <option value="value21">Santa Fe</option>
+                                <option value="value22">Santiago del Estero</option>
+                                <option value="value23">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+                                <option value="value24">Tucuman</option>    
+                            </select>
+                            Localidad: <input name="Localidad" type="text" >
+                            Codigo Postal: <input name="codigopostal" type="number" >                  
+                    </fieldset>   
+                        
+                    <button class="boton-reset" type="reset"> Recargar </button>    
+                    <button class="boton-enviar" type="submit">
+                        <a href="index.html"> Enviar </a> 
+                    </button> 
+                </main>
+
+               
+                
+            </div>
+
+            <footer>
+                Todos los derechos reservados.
+            </footer>
+        
+        </div>  
+    </form>  
+</body>
+</html>
