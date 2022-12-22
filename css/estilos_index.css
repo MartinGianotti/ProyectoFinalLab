@@ -5,6 +5,17 @@
     width: 100%;
 
 }
+
+#boton-perfil{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: none;
+}
+.material-symbols-outlined{
+    font-size: 40px;
+    color: rgba(78, 38, 115, 0.702);
+}
 #dashboard{
     
     display: flex;
@@ -14,7 +25,6 @@
     align-items: center;
     background-color: rgb(182, 179, 179);
     background-color: white;
-    border: 1px solid green;
     border-radius: 5px;
     
     
