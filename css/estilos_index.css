@@ -36,7 +36,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 70%;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 .contador{
@@ -93,6 +93,7 @@
     }
     #contenedor-derecho{
         width: 100%;
+        justify-content: center;
     }
 
     #contenedor-izquierdo{
