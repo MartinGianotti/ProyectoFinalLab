@@ -1,9 +1,6 @@
 #contenedor{
-    display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-
 }
 
 #boton-perfil{
@@ -17,22 +14,21 @@
     color: rgba(78, 38, 115, 0.702);
 }
 #dashboard{
-    
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     background-color: rgb(182, 179, 179);
     background-color: white;
     border-radius: 5px;
-    
-    
+    margin: 0px 100px 0px 100px;
+
 }
+
 #contenedor-izquierdo{
     display: flex;
+    width: 20%;
     flex-direction: column;
-    width: 30%;
     justify-content: center;
     align-items: center;
 }
@@ -82,3 +78,28 @@
     height: 250px;
 }
 
+@media screen and (width < 1140px) {
+    #contenedor{
+        justify-content:start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #dashboard{
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+    }
+    #contenedor-derecho{
+        width: 100%;
+    }
+
+    #contenedor-izquierdo{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+}
