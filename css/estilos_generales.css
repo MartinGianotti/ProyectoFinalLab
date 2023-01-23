@@ -7,3 +7,7 @@
     width: 100%;
     display: flex;
 }
+#nav-bar{
+    height: 60px;
+    padding: 5px;
+}

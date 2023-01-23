@@ -9,10 +9,14 @@
     background-color: white;
     border: none;
 }
+#boton-perfil:hover{
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.163);
+}
 .material-symbols-outlined{
     font-size: 40px;
     color: rgba(78, 38, 115, 0.702);
 }
+
 #dashboard{
     display: flex;
     flex-wrap: wrap;

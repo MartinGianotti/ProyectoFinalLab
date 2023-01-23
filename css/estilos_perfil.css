@@ -46,3 +46,16 @@ footer{
     text-align: center;
 }
 
+@media screen and (width < 1240px) {
+    #contenedor-central{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .fieldset{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
