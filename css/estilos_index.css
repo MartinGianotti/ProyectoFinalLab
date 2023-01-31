@@ -77,9 +77,26 @@
     flex-direction: column;
     
 }
+.dashboard-item:nth-child(1){
+    justify-self: flex-start;
+}
 .dashboard-item img{
     max-width: 100%;
     height: 250px;
+}
+#ventas{
+    border: 1px solid rgb(151, 25, 25);
+    width: 90%;
+    border-radius: 5px;
+}
+#ventas tr td{
+    border: 1px solid rgb(142, 25, 25);
+}
+.producto{
+    background-color: aqua;
+}
+.nro-ventas{
+    background-color: blueviolet;
 }
 
 @media screen and (width < 1140px) {
