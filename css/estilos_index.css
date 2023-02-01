@@ -3,7 +3,10 @@
     align-items: center;
 }
 #nav-bar{
-    background-color: rgb(144, 135, 135);
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background-color: rgb(94, 10, 94);
 }
 
 #boton-perfil{
@@ -102,15 +105,7 @@
 .nro-ventas{
     background-color: blueviolet;
 }
-footer{
-    display: flex;
-    background-color:  rgb(144, 135, 135);
-    justify-content: center;
-    align-items: center;
-    font-size: 17px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}
+
 
 @media screen and (width < 1140px) {
     #contenedor{

@@ -135,12 +135,3 @@ button{
 #icono-inicio:hover{
     box-shadow: inset 0px 0px 4px black;
 }
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
-    background-color: rgb(94, 10, 94);
-    font-size: 17px;
-    color: white;
-}
