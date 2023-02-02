@@ -9,7 +9,12 @@ body{
     
   
 }
-
+#contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 #nav-bar{
     display: flex;

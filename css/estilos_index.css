@@ -7,7 +7,9 @@
     align-items: center;
     height: 120px;
     background-color: rgb(94, 10, 94);
+    
 }
+
 
 #boton-perfil{
     width: 50px;
@@ -21,7 +23,9 @@
 }
 .material-symbols-outlined{
     font-size: 40px;
-    color: rgba(78, 38, 115, 0.702);
+    color: white;
+    margin-left: 20px;
+
 }
 
 #dashboard{

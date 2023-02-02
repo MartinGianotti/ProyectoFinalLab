@@ -14,122 +14,126 @@
 <body>
     <header>
         <nav id="nav-bar">
-            <a href=""> <span class="material-symbols-outlined" id="icono-inicio">
+            <a href="index.html"> <span class="material-symbols-outlined" id="icono-inicio">
                 home
                 </span>
             </a>
         </nav>
     </header>
 
-    <div id="menu-edicion">
+    <div id="contenedor-principal">
 
-        <p>Editar perfil</p>
-        <ul>
-            <li> <a href=""  class="opcion-edicion"> Informacion personal </a> </li>
-            <li> <a href="" class="opcion-edicion"> Informacion de cuenta </a>  </li>
-            <li> <a href="" class="opcion-edicion"> Informacion de contacto </a>  </li>
-            <li> <a href="" class="opcion-edicion"> Informacion de seguridad </a> </li>
-            <li></li>
-        </ul>
-    </div>
-    <div id="contenedor-forms">
+        <div id="menu-edicion">
     
-    
-    <form action="" id="form-info">
-        <ul class="">
-            <h3>Informacion personal</h3>
-            <li>
-                <span lang="en" translate="no" class="material-symbols-outlined">
-                    person
-                    </span>
-                <input type="text" id="name" class='input' placeholder="Nombre" required>
-            </li>
-            <li>
-                <span lang="en" translate="no" class="material-symbols-outlined">
-                    person
-                    </span>
-                <input type="text" id="lastname" class='input' placeholder="Apellido" required>
-                
-            </li>
-            <li>
-                <input type="date" id="lastname" class='input' placeholder="Fecha de nacimiento" required>
-            </li>
-        </ul>
-        <button type="submit" class="but-enviar"> Guardar </button>
-        <button type="reset" class="but-borrar"> Borrar </button>
-    </form>
-    <form action="" id="form-usuario">
-        <ul>
-            <h3>Usuario</h3>
-            <li>
-                <span lang="en" translate="no" class="material-symbols-outlined">
-                    account_circle
-                    </span>
-                    <input type="text" id="username" class='input' placeholder="Nombre de usuario" required>
-            </li>
-            <li>
+            <p>Editar perfil</p>
+            <ul>
+                <li> <a href=""  class="opcion-edicion"> Informacion personal </a> </li>
+                <li> <a href="" class="opcion-edicion"> Informacion de cuenta </a>  </li>
+                <li> <a href="" class="opcion-edicion"> Informacion de contacto </a>  </li>
+                <li> <a href="" class="opcion-edicion"> Informacion de seguridad </a> </li>
+                <li></li>
+            </ul>
+        </div>
+        <div id="contenedor-forms">
+        
+        
+        <form action="" id="form-info">
+            <ul class="">
+                <h3>Informacion personal</h3>
+                <li>
+                    <span lang="en" translate="no" class="material-symbols-outlined">
+                        person
+                        </span>
+                    <input type="text" id="name" class='input' placeholder="Nombre" required>
+                </li>
+                <li>
+                    <span lang="en" translate="no" class="material-symbols-outlined">
+                        person
+                        </span>
+                    <input type="text" id="lastname" class='input' placeholder="Apellido" required>
+                    
+                </li>
+                <li>
+                    <input type="date" id="lastname" class='input' placeholder="Fecha de nacimiento" required>
+                </li>
+            </ul>
+            <button type="submit" class="but-enviar"> Guardar </button>
+            <button type="reset" class="but-borrar"> Borrar </button>
+        </form>
+        <form action="" id="form-usuario">
+            <ul>
+                <h3>Usuario</h3>
                 <li>
                     <span lang="en" translate="no" class="material-symbols-outlined">
                         account_circle
                         </span>
-                        <input type="text" id="username2" class='input' placeholder="Repetir nombre de usuario" required>
+                        <input type="text" id="username" class='input' placeholder="Nombre de usuario" required>
                 </li>
-            </li>
-        </ul>
-        <button type="submit" class="but-enviar"> Guardar </button>
-        <button type="reset" class="but-borrar"> Borrar </button>
-    </form>
-
-    <form action="" id="form-contacto">
-
+                <li>
+                    <li>
+                        <span lang="en" translate="no" class="material-symbols-outlined">
+                            account_circle
+                            </span>
+                            <input type="text" id="username2" class='input' placeholder="Repetir nombre de usuario" required>
+                    </li>
+                </li>
+            </ul>
+            <button type="submit" class="but-enviar"> Guardar </button>
+            <button type="reset" class="but-borrar"> Borrar </button>
+        </form>
     
-        <ul>
-        <h3>Informacion de contacto</h3>
-            <li>
-            <span lang="en" translate="no" class="material-symbols-outlined">
-                alternate_email 
-                </span>
-            <input type="email" id="email" class='input' placeholder="Correo electronico" required>
-            </li>
-            <li>
-                <span class="material-symbols-outlined">
-                    call
-                </span>
-                <input type="number" id="email" class='input' placeholder="Numero de telefono" required>
-            </li>    
+        <form action="" id="form-contacto">
+    
         
-        </ul>
-        <button type="submit" class="but-enviar"> Guardar </button>
-        <button type="reset" class="but-borrar"> Borrar </button>
-    </form>
-
-    <form action="" id="form-contraseña">
-         <ul>
-            <h3>Cambiar contraseña</h3>
-            <li>
+            <ul>
+            <h3>Informacion de contacto</h3>
+                <li>
                 <span lang="en" translate="no" class="material-symbols-outlined">
-                    key
+                    alternate_email 
                     </span>
-                <input type="password" id="password" class='input' placeholder="Contraseña" required>
-            </li>
-            <li>
-                <span lang="en" translate="no" class="material-symbols-outlined">
-                    key
+                <input type="email" id="email" class='input' placeholder="Correo electronico" required>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">
+                        call
                     </span>
-                <input type="password" id="password2" class='input' placeholder="Repetir contraseña" required>
-            </li>
-
-        </ul>
-        <button type="submit" class="but-enviar"> Guardar </button>
-        <button type="reset" class="but-borrar"> Borrar </button>
-    </form>
-        
+                    <input type="number" id="email" class='input' placeholder="Numero de telefono" required>
+                </li>    
             
-       
-        
-         
+            </ul>
+            <button type="submit" class="but-enviar"> Guardar </button>
+            <button type="reset" class="but-borrar"> Borrar </button>
+        </form>
     
-</div>
+        <form action="" id="form-contraseña">
+             <ul>
+                <h3>Cambiar contraseña</h3>
+                <li>
+                    <span lang="en" translate="no" class="material-symbols-outlined">
+                        key
+                        </span>
+                    <input type="password" id="password" class='input' placeholder="Contraseña" required>
+                </li>
+                <li>
+                    <span lang="en" translate="no" class="material-symbols-outlined">
+                        key
+                        </span>
+                    <input type="password" id="password2" class='input' placeholder="Repetir contraseña" required>
+                </li>
+    
+            </ul>
+            <button type="submit" class="but-enviar"> Guardar </button>
+            <button type="reset" class="but-borrar"> Borrar </button>
+        </form>
+            
+                
+           
+            
+             
+        
+    </div>
+    </div>
+
 <footer>
     <p> &copy Todos los derechos reservados. </p>
 </footer>
