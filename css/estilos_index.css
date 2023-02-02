@@ -86,11 +86,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 5px;
     
 }
-.dashboard-item:nth-child(1){
-    justify-self: flex-start;
-}
+
 .dashboard-item img{
     max-width: 100%;
     height: 250px;
