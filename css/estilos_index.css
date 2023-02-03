@@ -1,13 +1,19 @@
-#contenedor{
-    justify-content: center;
-    align-items: center;
-}
+/*estilos barra de navegacion*/
+
 #nav-bar{
     display: flex;
     align-items: center;
     height: 120px;
     background-color: rgb(94, 10, 94);
     
+}
+
+
+/*ESTILOS DASHBOARD*/
+
+#contenedor{
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -18,15 +24,7 @@
     border: none;
     background-color: rgb(144, 135, 135)
 }
-#boton-perfil:hover{
-    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.163);
-}
-.material-symbols-outlined{
-    font-size: 40px;
-    color: white;
-    margin-left: 20px;
 
-}
 
 #dashboard{
     display: flex;
@@ -109,8 +107,10 @@
     background-color: blueviolet;
 }
 
-
+/* PANTALLA MENOR A 1140 PX */
 @media screen and (width < 1140px) {
+
+    /*ESTILOS DASHBOARD*/
     #contenedor{
         justify-content:start;
         flex-direction: row;
