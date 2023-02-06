@@ -6,10 +6,15 @@
 header{
     height: 150px;
 }
+#contenedor-general{
+    display: flex;
+    flex-direction: column;
+}
 #contenedor{
     width: 100%;
     display: flex;
-    height: 1000px;
+    flex-direction: row;
+   
 }
 
 footer{
