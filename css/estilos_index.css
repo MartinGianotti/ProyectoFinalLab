@@ -7,6 +7,12 @@
     background-color: rgb(94, 10, 94);
     
 }
+#icono-perfil{
+    position: initial;
+    color: white;
+    font-size: 50px;
+    margin-right: 20px;
+}
 
 
 /*ESTILOS DASHBOARD*/
@@ -14,15 +20,6 @@
 #contenedor{
     justify-content: center;
     align-items: center;
-}
-
-
-#boton-perfil{
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border: none;
-    background-color: rgb(144, 135, 135)
 }
 
 
