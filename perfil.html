@@ -5,154 +5,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="css/estilos_perfil.css">
+    <link rel="stylesheet" href="css/estilos_generales.css">
+    <link rel="stylesheet" href="css/estilos-perfil2.css">
+    
+    <title>Document</title>
+    
 </head>
-<body background= "img/fondo_perfil.png" class="fondo">
-    <form>
-        <div id="contenedor-general">
-            
-            <header>
-                <nav id="menu-principal">   
-                    <img src="img/logo.png" alt="Logo" title="Logo">  
-                    <button class="boton-menu" >
-                        <a href="index.html"> Inicio </a>
-                    </button>      
-                </nav>
-            </header>
-            
-            <div id="contenedor-central" >     
-                <main>             
-                    
-                    <div id="menu-edicion">
-                        <h2> Editar informacion: </h2>
-                        <a href="#info-personal"> <span class="material-symbols-outlined">
-                            person
-                            </span> Informacion personal</a>
-                        <a href="#contraseña"> <span class="material-symbols-outlined">
-                            key
-                            </span> Cambiar contraseña</a>
-                        <a href="#contacto"> <span class="material-symbols-outlined">
-                            contact_phone
-                            </span> Informacion de contacto</a>
-                        <a href="#ubicacion"> <span class="material-symbols-outlined">
-                            home_pin
-                            </span> Localidad </a>
-                    </div>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <a href="index.html"> <span class="material-symbols-outlined" id="icono-inicio">
+                home
+                </span>
+            </a>
+        </nav>
+    </header>
 
-                    <div id="formularios">
-                    <form action="" class="form-perfil" id="info-personal"> 
-                        <fieldset class="fieldset">
-                            <legend>Información Personal</legend>
-                            <div>
-                                <label for="nombre"> Nombre: </label>
-                                <input name='nombre' type='text' >
-                            </div>
-                            <div>
-                                
-                                <label for="apellidos"> Apellido: </label> 
-                                <input name='apellidos' type='text' >
-                            </div>
-                             
-                            
-                        </fieldset>
-                    </form>
-                    
-                    <form action="" class="form-perfil" id="contraseña">
-                        <fieldset class="fieldset">
-                            <legend>Contraseña</legend>
-                            <div>
-                                <label for="Contraseña"> Nueva contraseña: </label>
-                                <input name="Contraseña" type="password" >
-                            </div>
-                            <div>
-                                <label for="Contraseña2">Repetir contraseña: </label>
-                                <input name="Contraseña2" type="password" >
-                            </div>
-                                
-                        </fieldset>
-                    </form>
-                    
-                    <form action="" class="form-perfil" id="nacimiento">
-                        <fieldset class="fieldset">
-                            <legend>Fecha de nacimiento</legend>
-                                <input type="date"
-                                name='Nacimiento' >     
-                        </fieldset>
-                    </form>
-                        
-                    <form action="" class="form-perfil" id="contacto">
-                        <fieldset class="fieldset">
-                            <legend>Contacto</legend>
-                            <div>
-                                <label for="email"> Email: </label>
-                                <input name="email" type="text" >
-                            </div>
-                            <div>
-                                <label for="email"> Email: </label>
-                                <input name="email" type="text" >
-                            </div>
-                            
-                        </fieldset> 
-                    </form>
-                      
-                    <form action="" class="form-perfil" id="ubicacion">
-                        <fieldset class="fieldset">
-                            <legend>Domicilio</legend>
-                                <label for="select_provincia"> Provincia: </label>
-                                <select name="select_provinicia" >
-                                    <option value="value0">Seleccione</option>
-                                    <option value="value1">Buenos Aires</option>
-                                    <option value="value2">CABA</option>
-                                    <option value="value3">Catamarca</option>
-                                    <option value="value4">Chaco</option>
-                                    <option value="value5">Chubut</option>
-                                    <option value="value6">Cordoba</option>
-                                    <option value="value7">Corrientes</option>
-                                    <option value="value8">Entre Rios</option>
-                                    <option value="value9">Formosa</option>
-                                    <option value="value10">Jujuy</option>
-                                    <option value="value11">La Pampa</option>
-                                    <option value="value12">La rioja</option>
-                                    <option value="value13">Mendoza</option>
-                                    <option value="value14">Misiones</option>
-                                    <option value="value15">Neuquen</option>
-                                    <option value="value16">Rio Negro</option>
-                                    <option value="value17">Salta</option>
-                                    <option value="value18">San Juan</option>
-                                    <option value="value19">San Luis</option>
-                                    <option value="value20">Santa Cruz</option>
-                                    <option value="value21">Santa Fe</option>
-                                    <option value="value22">Santiago del Estero</option>
-                                    <option value="value23">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
-                                    <option value="value24">Tucuman</option>    
-                                </select>
-                                <div>
-                                    <label for="localidad"> Localidad: </label>
-                                    <input name="localidad" type="text" >
-                                </div>
-                                <div>
-                                    <label for="codigo-postal"> Codigo postal: </label>
-                                    <input name="codigo-postal" type="number" >
-                                </div>
-                                                  
-                        </fieldset> 
-                    </form>
-                      
-                        
-                    <button class="boton-reset" type="reset"> Recargar </button>    
-                    <button class="boton-enviar" type="submit"> Enviar </button> 
-                </div>
-                </main>
+    <div id="contenedor-principal">
 
-               
-                
-            </div>
-
-            <footer>
-                Todos los derechos reservados.
-            </footer>
+        <div id="menu-edicion">
+    
+            <p>Editar perfil</p>
+            <ul>
+                <li> <a href="#form-info"  class="opcion-edicion"> Informacion personal </a> </li>
+                <li> <a href="#form-usuario" class="opcion-edicion"> Informacion de cuenta </a>  </li>
+                <li> <a href="#form-contacto" class="opcion-edicion"> Informacion de contacto </a>  </li>
+                <li> <a href="#form-contraseña" class="opcion-edicion"> Informacion de seguridad </a> </li>
+                <li></li>
+            </ul>
+        </div>
+        <div id="contenedor-forms">
         
-        </div>  
-    </form>  
+        
+        <form action="" id="form-info">
+            <ul class="">
+                <h3>Informacion personal</h3>
+                <li>
+                    <span lang="en" translate="no" class="material-symbols-outlined">
+                        person
+                        </span>
+                    <input type="text" id="name" class='input' placeholder="Nombre" required>
+                </li>
+                <li>
+                    <span lang="en" translate="no" class="material-symbols-outlined">
+                        person
+                        </span>
+                    <input type="text" id="lastname" class='input' placeholder="Apellido" required>
+                    
+                </li>
+                <li>
+                    <input type="date" id="lastname" class='input' placeholder="Fecha de nacimiento" required>
+                </li>
+            </ul>
+            <button type="submit" class="but-enviar"> Guardar </button>
+            <button type="reset" class="but-borrar"> Borrar </button>
+        </form>
+        <form action="" id="form-usuario">
+            <ul>
+                <h3>Usuario</h3>
+                <li>
+                    <span lang="en" translate="no" class="material-symbols-outlined">
+                        account_circle
+                        </span>
+                        <input type="text" id="username" class='input' placeholder="Nombre de usuario" required>
+                </li>
+                <li>
+                    <li>
+                        <span lang="en" translate="no" class="material-symbols-outlined">
+                            account_circle
+                            </span>
+                            <input type="text" id="username2" class='input' placeholder="Repetir nombre de usuario" required>
+                    </li>
+                </li>
+            </ul>
+            <button type="submit" class="but-enviar"> Guardar </button>
+            <button type="reset" class="but-borrar"> Borrar </button>
+        </form>
+    
+        <form action="" id="form-contacto">
+    
+        
+            <ul>
+            <h3>Informacion de contacto</h3>
+                <li>
+                <span lang="en" translate="no" class="material-symbols-outlined">
+                    alternate_email 
+                    </span>
+                <input type="email" id="email" class='input' placeholder="Correo electronico" required>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">
+                        call
+                    </span>
+                    <input type="number" id="email" class='input' placeholder="Numero de telefono" required>
+                </li>    
+            
+            </ul>
+            <button type="submit" class="but-enviar"> Guardar </button>
+            <button type="reset" class="but-borrar"> Borrar </button>
+        </form>
+    
+        <form action="" id="form-contraseña">
+             <ul>
+                <h3>Cambiar contraseña</h3>
+                <li>
+                    <span lang="en" translate="no" class="material-symbols-outlined">
+                        key
+                        </span>
+                    <input type="password" id="password" class='input' placeholder="Contraseña" required>
+                </li>
+                <li>
+                    <span lang="en" translate="no" class="material-symbols-outlined">
+                        key
+                        </span>
+                    <input type="password" id="password2" class='input' placeholder="Repetir contraseña" required>
+                </li>
+    
+            </ul>
+            <button type="submit" class="but-enviar"> Guardar </button>
+            <button type="reset" class="but-borrar"> Borrar </button>
+        </form>
+            
+                
+           
+            
+             
+        
+    </div>
+    </div>
+
+<footer>
+    <p> &copy Todos los derechos reservados. </p>
+</footer>
 </body>
 </html>
