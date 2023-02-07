@@ -1,23 +1,19 @@
 /*estilos barra de navegacion*/
 
-#nav-bar{
-    display: flex;
-    align-items: center;
-    height: 120px;
-    background-color: rgb(94, 10, 94);
-    
-}
 #icono-perfil{
     position: initial;
     color: white;
     font-size: 50px;
-    margin-left: 20px;
+    margin-right: 20px;
+}
+#icono-perfil:hover{
+    box-shadow: inset 0px 0px 4px black;
 }
 
 
 /*ESTILOS DASHBOARD*/
 
-#contenedor{
+#contenedor-dash{
     justify-content: center;
     align-items: center;
 }
@@ -88,7 +84,7 @@
 .dashboard-item img{
     max-width: 100%;
     /*250*/
-    height:calc(100% - 16px); 
+    height:calc(100% - 20px); 
 }
 #ventas{
     
@@ -108,7 +104,10 @@
 @media screen and (width < 1140px) {
 
     /*ESTILOS DASHBOARD*/
-    #contenedor{
+    #contenedor-general{
+        justify-content: flex-start;
+    }
+    #contenedor-dash{
         justify-content:start;
         flex-direction: row;
         flex-wrap: wrap;
