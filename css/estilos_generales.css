@@ -29,6 +29,7 @@ header{
     align-items: center;
     height: 120px;
     background-color: rgb(94, 10, 94);
+    min-width: 350px;
 }
 
 
@@ -46,4 +47,5 @@ footer{
     background-color: rgb(94, 10, 94);
     font-size: 17px;
     color: white;
+    min-width: 350px;
 }
