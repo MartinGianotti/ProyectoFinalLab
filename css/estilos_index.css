@@ -107,6 +107,9 @@
     #contenedor-general{
         justify-content: flex-start;
     }
+    #nav-bar{
+        justify-content: flex-start;
+    }
     #contenedor-dash{
         justify-content:start;
         flex-direction: row;

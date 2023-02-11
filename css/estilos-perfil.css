@@ -1,9 +1,5 @@
 /*ESTILO GENERAL*/
-body{
 
-    width: 100%;
-    
-}
 #contenedor-principal{
     display: flex;
     flex-direction: column;
@@ -136,6 +132,9 @@ ul li{
 /*PANTALLA MENOS A 565 px*/
 @media screen and (width < 565px){
 
+    #nav-bar{
+        justify-content: flex-start;
+    }
     #menu-edicion{
         width:325px
     }
