@@ -104,9 +104,7 @@
 @media screen and (width < 1140px) {
 
     /*ESTILOS DASHBOARD*/
-    #contenedor-general{
-        justify-content: flex-start;
-    }
+
     #nav-bar{
         justify-content: flex-start;
     }
