@@ -132,12 +132,18 @@ ul li{
 /*PANTALLA MENOS A 565 px*/
 @media screen and (width < 565px){
 
+    /*ESTILOS BARRA DE NAVEGACION*/
     #nav-bar{
         justify-content: flex-start;
     }
+
+    /*ESTILOS MENU EDICION*/
     #menu-edicion{
         width:325px
     }
+
+    /*ESTILOS FORMULARIOS*/
+    
     form{
         display: flex;
         flex-direction: column;
