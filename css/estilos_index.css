@@ -21,7 +21,7 @@
 
 #dashboard{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
     justify-content:center;
     align-items: center;
     background-color: rgb(182, 179, 179);
@@ -33,7 +33,6 @@
 
 #contenedor-izquierdo{
     display: flex;
-    width: 20%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -41,8 +40,8 @@
 #contenedor-derecho{
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
-    justify-content: start;
+    
+    justify-content: center;
     align-items: center;
 }
 .contador{
@@ -55,7 +54,7 @@
     width: 180px;
     height: 180px;
     background-color: green;
-    margin: 20px;
+    margin: 8px;
     border-radius: 5px;
     box-shadow: 2px 1px 10px rgb(41, 40, 40);
     background-color: white;
@@ -101,7 +100,7 @@
 }
 
 /* PANTALLA MENOR A 1140 PX */
-@media screen and (width < 1140px) {
+@media screen and (width < 1145px) {
 
     /*ESTILOS DASHBOARD*/
 
@@ -116,6 +115,7 @@
 
     #dashboard{
         width: 100%;
+        flex-wrap: wrap;
         justify-content: flex-start;
         align-items: center;
         margin: 0;
